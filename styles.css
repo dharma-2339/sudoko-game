@@ -1,0 +1,98 @@
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+ hr{
+   width:500px;
+   border: 2px solid black;
+ }
+
+
+
+h3 {
+  margin-left: 100px;
+}
+
+body {
+  margin: 0;
+
+}
+
+.option-bar {
+
+  height: 50px;
+
+}
+
+#button2 {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.difficulty-level {
+  margin-left: 100px;
+}
+
+#grid{
+  width: 452px;
+  height: 452px;
+  border: 2px solid black;
+  margin:0 auto;
+
+flex-wrap: wrap;
+display: flex;
+}
+#digits{
+  width: 396px;
+  height: 42px;
+  background-color: yellow;
+  margin: 0 auto;
+
+  flex-wrap:wrap;
+  border: 2px solid black;
+  display:flex;
+  }
+.tile{
+  width: 48px;
+  height: 48px;
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number{
+  width: 42px;
+  height: 42px;
+  border: 1px solid black;
+
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 2px solid black;
+}
+
+.vertical-line {
+    border-right: 2px solid black;
+}
+
+.number-selected{
+  background-color: gray;
+}
+.tile-selected{
+    background-color: gray;
+}
+.incorrect-selected{
+  background-color: #ff8080;
+}
